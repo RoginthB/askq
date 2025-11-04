@@ -1,11 +1,17 @@
+import { Step1 } from "../components/step1Comp";
+
 export default  function Steps() {
   return (
-    <div className="flex min-h-screen items-center justify-center bg-zinc-50 font-sans dark:bg-black">
-      <main className="flex min-h-screen w-full  max-w-3xl flex-row items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
+    <div className="flex min-h-screen flex-col items-center justify-center bg-zinc-50 font-sans dark:bg-black">
+      <main className="flex min-h-10 w-full  max-w-3xl flex-row items-center justify-between pt-6 px-16 bg-white dark:bg-black sm:items-start">
         <Step step ="Step 1"  description ="Upload Your Document."/>
         <Step step = "Step 2" description = "You can Ask your Qustions."/>
-    
       </main>
+      <div className="min-h-90">
+        <Step1 step ="Step 1"  description ="Upload Your Document." />
+      </div>
+      
+    
     </div>
   );
 }

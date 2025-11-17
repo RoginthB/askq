@@ -1,6 +1,6 @@
 export function GetInput(props) {
     return (
-        <div className="w-full flex flex-row items-center justify-evenly bg-gray-400 rounded-md border-gray-400 border-1 ">
+        <div className=" flex flex-row items-center justify-evenly bg-gray-400 rounded-md border-gray-400 border-2 ">
             <input className="bg-gray-800 p-5 border-gray-200 rounded-md" type="file" />
             <button className="px-2  py-5 hover:text-gray-900 ">
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="size-6 text-gray-800">

@@ -1,6 +1,6 @@
 export function ChatInput(props) {
     return (
-        <div className="py-2 px-3 bg-zinc-900 rounded-md max-w-70">
+        <div className="py-2 px-3 bg-zinc-900 rounded-md max-w-70 mb-2">
             <p className="text-zinc-600 dark:text-zinc-400">{props.message}</p>
         </div>
     )
